@@ -1,9 +1,13 @@
-\c biztime;
 
 DROP TABLE IF EXISTS invoices;
+
 DROP TABLE IF EXISTS companies;
 
+\c biztime;
+
+
 CREATE TABLE companies (
+  
     code text PRIMARY KEY,
     name text NOT NULL UNIQUE,
     description text

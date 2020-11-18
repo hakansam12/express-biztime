@@ -5,5 +5,5 @@ const app = require("./app");
 
 
 app.listen(3000, function () {
-  console.log("Starting Servet at port 300");
+  console.log("Listening on 3000");
 });

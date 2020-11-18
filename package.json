@@ -1,26 +1,18 @@
 {
-  "name": "express-biztime",
+  "name": "biztime",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hakansam12/express-biztime.git"
-  },
-  "author": "hakan sam",
+  "author": "Joel Burton",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hakansam12/express-biztime/issues"
-  },
-  "homepage": "https://github.com/hakansam12/express-biztime#readme",
   "dependencies": {
     "express": "^4.17.1",
     "pg": "^8.5.1",
     "slugify": "^1.4.6",
-    "supertest": "^6.0.1"
+    "supertest": "^3.3.0"
   }
 }
